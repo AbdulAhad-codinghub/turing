@@ -1,0 +1,75 @@
+.filter{
+    margin-left: 4vw;
+    margin-bottom: 1vw;
+}
+.filter select {
+    border: none;
+    color: blue;
+}
+.filter option{
+    width: 400px;
+}
+.table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.detailsTable{
+    width: 95%;
+    border: 0.5px solid black;
+    border-collapse: collapse;
+
+   
+}
+.detailsTable thead{
+    text-transform: uppercase;
+    
+}
+.detailsTable th{
+    padding: 10px 30px;
+    border-bottom: 0.5px solid black;
+    background-color: lightgray;
+}
+.detailsTable td{
+    padding: 0 30px;
+    border-bottom: 0.5px solid black;
+}
+.archieveBtn{
+    width: 6vw;
+    height: 1.7vw;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;    
+}
+.unarchieveBtn{
+    width: 6vw;
+    height: 1.7vw;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;  
+}
+.addNoteBtn{
+    width: 6vw;
+    height: 1.7vw;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.clrPrpl{
+    color: blue;
+}
+.clrRed{
+    color: red
+}
+.seconds{
+    margin-top: -10px;
+}
